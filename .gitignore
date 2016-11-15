@@ -6,7 +6,9 @@
 /.settings/
 */.settings/**
 
-#all subfolders starting with .
-#.*/
+#exclude .gitignore files on sub-projects. 
+#since  .gitignore on sub-folders is only for eclipse purpose
+.gitignore
 
-.gitignore 
+#all subfolders starting with .
+#.*/ 
