@@ -1,0 +1,5 @@
+<bindings xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" 
+		wsdlLocation="../wsdl/WSDL_FirstService_v1.0.wsdl" 
+		xmlns="http://java.sun.com/xml/ns/jaxws">
+	<enableWrapperStyle>false</enableWrapperStyle>
+</bindings>
