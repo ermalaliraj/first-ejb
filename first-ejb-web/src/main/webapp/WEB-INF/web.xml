@@ -36,5 +36,9 @@ http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
 		<env-entry-type>java.lang.String</env-entry-type>
 		<env-entry-value>./apps-properties/ib-pc-logback-be.xml</env-entry-value>
 	</env-entry>
+	
+	<welcome-file-list>
+		<welcome-file>index.jsp</welcome-file>
+	</welcome-file-list>
 
 </web-app>
